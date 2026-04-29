@@ -1,0 +1,1 @@
+PATH_TO_TABLE = "/home/user/Документы/Python/college-schedule/R35.xls"
