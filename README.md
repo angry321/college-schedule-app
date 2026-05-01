@@ -82,7 +82,7 @@ college-schedule-app/
     │   │   ├── index.tsx                  # Экран "Сегодня"
     │   │   ├── week.tsx                   # Экран "Неделя"
     │   │   ├── calls.tsx                  # Экран "Звонки"
-    │   │   └── settings.tsx              # Экран "Настройки" (загрузка файла)
+    │   │   └── settings.tsx               # Экран "Настройки" (загрузка файла)
     │   ├── _layout.tsx                    # Корневой layout
     │   └── modal.tsx                      # Модальный экран
     ├── components/                        # Переиспользуемые компоненты
