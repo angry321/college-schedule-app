@@ -64,14 +64,13 @@ college-schedule-app/
 │   │   ├── core/
 │   │   │   └── config.py                  # Конфигурация (путь к таблице)
 │   │   │
-│   │   │
 │   │   ├── services/
-│   │   │   └── schedule/
-│   │   │       ├── lessons_for_today.py   # Парсинг расписания на сегодня
-│   │   │       ├── lessons_for_week.py    # Парсинг расписания на неделю
-│   │   │       └── calls.py              # Расписание звонков (статичные данные)
-│   │   └── utils/
-│   │       └── excel.py                   # (зарезервировано)
+│   │       └── schedule/
+│   │           ├── lessons_for_today.py   # Парсинг расписания на сегодня
+│   │           ├── lessons_for_week.py    # Парсинг расписания на неделю
+│   │           └── calls.py              # Расписание звонков
+│   │
+│   │
 │   ├── uploads/
 │   │   └── active.xlsx                    # Активная таблица расписания
 │   └── requirements.txt
