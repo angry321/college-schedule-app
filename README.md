@@ -63,8 +63,8 @@ college-schedule-app/
 │   │   ├── main.py                        # FastAPI приложение, все маршруты
 │   │   ├── core/
 │   │   │   └── config.py                  # Конфигурация (путь к таблице)
-│   │   ├── api/
-│   │   │   └── routes.py                  # (зарезервировано)
+│   │   │
+│   │   │
 │   │   ├── services/
 │   │   │   └── schedule/
 │   │   │       ├── lessons_for_today.py   # Парсинг расписания на сегодня
