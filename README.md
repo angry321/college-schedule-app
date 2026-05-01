@@ -18,6 +18,11 @@
 - **TypeScript**
 - **JavaScript**
 
+## Библиотеки / инструменты
+- **expo-document-picker** - выбор Excel файла
+- **pandas** - обработка Excel
+- **openpyxl / xlrd** - чтение таблиц
+
 ## Установка
 
 1. Клонируйте репозиторий:
