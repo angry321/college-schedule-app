@@ -1,16 +1,17 @@
 import { useEffect, useState } from "react";
 import { View, Text, ScrollView } from "react-native";
 
+import { API_URL } from "../../src/config/api";
+
 export default function Calls() {
   const [data, setData] = useState([]);
 
   const loadCalls = () => {
-    fetch("http://192.168.0.21:8000/calls")
+    fetch(`${API_URL}/calls`)
       .then(res => res.json())
       .then(res => {
         console.log("API RESPONSE:", res);
 
-        // 👉 нормализуем данные
         if (Array.isArray(res)) {
           setData(res);
         } else if (Array.isArray(res.calls)) {
@@ -32,7 +33,7 @@ export default function Calls() {
   if (!data.length) {
     return (
       <View style={styles.center}>
-        <Text style={styles.text}>Нет данных</Text>
+        <Text style={styles.text}>Загрузка...</Text>
       </View>
     );
   }

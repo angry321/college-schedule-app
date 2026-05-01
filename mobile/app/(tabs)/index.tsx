@@ -1,14 +1,18 @@
 import { useEffect, useState } from "react";
-import { Text, View, ScrollView, Button } from "react-native";
+import { Text, View, ScrollView } from "react-native";
 import { TouchableOpacity } from "react-native";
+
+import { API_URL } from "../../src/config/api";
 
 export default function HomeScreen() {
   const [data, setData] = useState(null);
 
   const loadData = () => {
-    fetch("http://192.168.0.21:8000/today")
+    fetch(`${API_URL}/today`)
       .then(res => res.json())
-      .then(setData)
+      .then(res => {
+        setData(res);
+      })
       .catch(err => console.log(err));
   };
 
@@ -32,7 +36,6 @@ export default function HomeScreen() {
         paddingBottom: 20,
       }}
     >
-      {/* 🔄 КНОПКА ОБНОВЛЕНИЯ */}
       <TouchableOpacity
         onPress={loadData}
         style={{

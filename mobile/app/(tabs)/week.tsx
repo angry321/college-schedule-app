@@ -2,11 +2,13 @@ import { useEffect, useState } from "react";
 import { View, Text, ScrollView, Button } from "react-native";
 import { TouchableOpacity } from "react-native";
 
+import { API_URL } from "../../src/config/api";
+
 export default function Week() {
   const [data, setData] = useState(null);
 
   const loadWeek = () => {
-    fetch("http://192.168.0.21:8000/week")
+    fetch(`${API_URL}/week`)
       .then(res => res.json())
       .then(setData)
       .catch(err => console.log(err));
@@ -32,7 +34,6 @@ export default function Week() {
         paddingBottom: 20,
       }}
     >
-      {/* 🔄 КНОПКА ОБНОВЛЕНИЯ */}
       <TouchableOpacity
         onPress={loadWeek}
         style={{
