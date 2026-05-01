@@ -1,3 +1,12 @@
+## Скачать
+
+[
+
+![Download APK](https://img.shields.io/badge/Download-APK-green)
+
+](https://github.com/angry321/college-schedule-app/releases/latest/download/schedule.apk)
+
+
 # College Schedule App 📚
 
 Мобильное приложение для просмотра расписания пар в колледже. Бэкенд разбирает Excel-таблицу с расписанием и отдаёт данные через REST API. Мобильное приложение на React Native отображает расписание на сегодня, на неделю и расписание звонков.
@@ -321,15 +330,6 @@ eas build -p android --profile preview
 > ```bash
 > eas build -p android --profile production
 > ```
-
-## Скачать
-
-[
-
-![Download APK](https://img.shields.io/badge/Download-APK-green)
-
-](https://github.com/angry321/college-schedule-app/releases/latest/download/app.apk)
-
 ---
 
 ## Деплой бэкенда
