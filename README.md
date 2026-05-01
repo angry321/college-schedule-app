@@ -24,18 +24,18 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/angry321/college-schedule.git
-cd college-schedule
+git clone https://github.com/angry321/college-schedule-app.git
+cd college-schedule-app/mobile
 ```
 
 2. Установите зависимости:
 ```bash
-pip install -r requirements.txt
+npm install
 ```
 
 3. Запустите приложение:
 ```bash
-python main.py
+npx expo start
 ```
 
 ## Использование
