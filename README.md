@@ -24,19 +24,18 @@
 - **openpyxl / xlrd** - чтение таблиц
 
 ## Установка
-
-1. Клонируйте репозиторий:
+# 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/angry321/college-schedule-app.git
 cd college-schedule-app/mobile
 ```
 
-2. Установите зависимости:
+# 2. Установите зависимости:
 ```bash
 npm install
 ```
 
-3. Запустите приложение:
+# 3. Запустите приложение:
 ```bash
 npx expo start
 ```
