@@ -322,6 +322,14 @@ eas build -p android --profile preview
 > eas build -p android --profile production
 > ```
 
+## Скачать
+
+[
+
+![Download APK](https://img.shields.io/badge/Download-APK-green)
+
+](https://github.com/angry321/college-schedule-app/releases/latest/download/app.apk)
+
 ---
 
 ## Деплой бэкенда
