@@ -1,7 +1,4 @@
-## Скачать
-
-
-[![Download APK](https://img.shields.io/badge/Download-APK-green)](https://github.com/angry321/college-schedule-app/releases/latest/download/schedule.apk)
+<div align="center">[![Download APK](https://img.shields.io/badge/Download-APK-green)](https://github.com/angry321/college-schedule-app/releases/latest/download/schedule.apk)</div>
 
 
 # College Schedule App 📚
