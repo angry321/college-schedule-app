@@ -331,7 +331,7 @@ eas build -p android --profile preview
 
 ## Деплой бэкенда
 
-Бэкенд задеплоен на [Railway](https://railway.app). Для деплоя своей версии:
+Бэкенд задеплоен на [Railway](https://railway.app)(возможно временно). Для деплоя своей версии:
 
 1. Создайте аккаунт на railway.app
 2. Создайте новый проект из GitHub репозитория
